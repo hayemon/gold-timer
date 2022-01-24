@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Board renders 1`] = `
+<DocumentFragment>
+  <div
+    class="board-container"
+  >
+    <div
+      class="treasure-box-container"
+    >
+      <h1
+        class="ant-typography"
+      >
+        0 Coins!!!
+      </h1>
+      <button
+        class="ant-btn"
+        style="width: 200px; height: 200px; margin: 0px; padding: 0px;"
+        type="button"
+      >
+        <div
+          class="treasure-box"
+        />
+      </button>
+    </div>
+    <div
+      class="indicator-container"
+    />
+  </div>
+</DocumentFragment>
+`;

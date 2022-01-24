@@ -1,6 +1,12 @@
 import { useEffect } from 'react'
 import { useDispatch } from 'react-redux'
 import {
+  defaultDelay,
+  defaultStep,
+  inactiveTimeout,
+  overdriveTimeout,
+} from 'utils/constants'
+import {
   addReward,
   incrementTotalOverdrives,
   selectStat,
@@ -23,13 +29,13 @@ const useTimer = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       if (inactive) {
-        if (timerCount >= 1) {
-          dispatch(setTimerCount(timerCount - 1))
+        if (timerCount >= defaultStep) {
+          dispatch(setTimerCount(timerCount - defaultStep))
         }
       } else {
-        dispatch(setTimerCount(timerCount + 1))
+        dispatch(setTimerCount(timerCount + defaultStep))
       }
-    }, 1000)
+    }, defaultDelay)
     return () => {
       clearInterval(interval)
     }
@@ -38,7 +44,7 @@ const useTimer = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       dispatch(setInactive(true))
-    }, 10000)
+    }, inactiveTimeout)
     return () => {
       clearInterval(interval)
     }
@@ -49,7 +55,7 @@ const useTimer = () => {
       if (overdriveCount >= 1) {
         dispatch(setOverdriveCount(overdriveCount - 1))
       }
-      if (overdriveCount === 10000) {
+      if (overdriveCount === overdriveTimeout) {
         dispatch(incrementTotalOverdrives())
       }
     }, 1)

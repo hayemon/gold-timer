@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Indicator renders 1`] = `
+<DocumentFragment>
+  <div
+    class="indicator-container"
+  />
+</DocumentFragment>
+`;

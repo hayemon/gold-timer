@@ -1,0 +1,126 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MainPage renders 1`] = `
+<DocumentFragment>
+  <div
+    class="container"
+  >
+    <div
+      class="ant-row"
+    >
+      <div
+        class="ant-col ant-col-6"
+      >
+        <div
+          class="ant-card ant-card-bordered"
+        >
+          <div
+            class="ant-card-head"
+          >
+            <div
+              class="ant-card-head-wrapper"
+            >
+              <div
+                class="ant-card-head-title"
+              >
+                Stats
+              </div>
+            </div>
+          </div>
+          <div
+            class="ant-card-body"
+          >
+            <div
+              class="ant-list ant-list-split"
+            >
+              <div
+                class="ant-spin-nested-loading"
+              >
+                <div
+                  class="ant-spin-container"
+                >
+                  <li
+                    class="ant-list-item ant-list-item-no-flex"
+                  >
+                    Previous Max 0
+                  </li>
+                  <li
+                    class="ant-list-item ant-list-item-no-flex"
+                  >
+                    Overldrives Count 0
+                  </li>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="ant-col ant-col-12"
+      >
+        <div
+          class="board-container"
+        >
+          <div
+            class="treasure-box-container"
+          >
+            <h1
+              class="ant-typography"
+            >
+              0 Coins!!!
+            </h1>
+            <button
+              class="ant-btn"
+              style="width: 200px; height: 200px; margin: 0px; padding: 0px;"
+              type="button"
+            >
+              <div
+                class="treasure-box"
+              />
+            </button>
+          </div>
+          <div
+            class="indicator-container"
+          />
+        </div>
+      </div>
+      <div
+        class="ant-col ant-col-6"
+      >
+        <div
+          class="ant-card ant-card-bordered"
+        >
+          <div
+            class="ant-card-head"
+          >
+            <div
+              class="ant-card-head-wrapper"
+            >
+              <div
+                class="ant-card-head-title"
+              >
+                Rewards
+              </div>
+            </div>
+          </div>
+          <div
+            class="ant-card-body"
+          >
+            <div
+              class="ant-list ant-list-split"
+            >
+              <div
+                class="ant-spin-nested-loading"
+              >
+                <div
+                  class="ant-spin-container"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
