@@ -1,0 +1,33 @@
+.treasure-box {
+  background: url(/public/treasure.png);
+  background-size: cover;
+
+  width: 100%;
+  height: 100%;
+}
+
+.treasure-box__shaded {
+  box-shadow: inset 0 0 0 2000px rgba(27, 27, 27, 0.3);
+}
+
+.indicator-container {
+  width: 100px;
+  height: 150px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.board-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container {
+  margin: 2em 2em 0 2em;
+}
+
+.treasure-box-container {
+  text-align: center;
+}
